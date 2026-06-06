@@ -4,13 +4,13 @@ Este repositorio contiene el microservicio de **Servicio de Carritos de Compra (
 
 ---
 
-## 📝 Descripción
+## Descripción
 
 Microservicio que gestiona el almacenamiento temporal y manipulación de artículos añadidos por el cliente al carrito de compras. Realiza validaciones previas de disponibilidad de stock contra el servicio de productos.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Tech Stack
 
 *   **Lenguaje de Programación:** Java 17
 *   **Framework Principal:** Spring Boot 3
@@ -20,7 +20,7 @@ Microservicio que gestiona el almacenamiento temporal y manipulación de artícu
 
 ---
 
-## 🚀 Guía de Ejecución Independiente
+## Guía de Ejecución
 
 Si desea arrancar este microservicio por separado para depuración o pruebas locales, siga estas instrucciones:
 
@@ -37,12 +37,12 @@ mvn spring-boot:run
 
 ---
 
-## 📖 Documentación de Endpoints (Swagger / OpenAPI)
+## Documentación de Endpoints (Swagger / OpenAPI)
 
 Este microservicio cuenta con documentación de API interactiva autogenerada con OpenAPI. 
 
 Una vez que el servicio esté corriendo, puede explorar y probar los endpoints interactivos ingresando a la siguiente dirección en su navegador:
-👉 **[Swagger UI - Servicio de Carritos de Compra (Cart Service)](http://localhost:8085/swagger-ui/index.html)**
+ **[Swagger UI - Servicio de Carritos de Compra (Cart Service)](http://localhost:8085/swagger-ui/index.html)**
 
 *Nota: La ruta de metadatos OpenAPI cruda en formato JSON está disponible en: `http://localhost:8085/v3/api-docs`.*
 
